@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="oder_view">
+        <item>Today Orders</item>
+        <item>All Orders</item>
+        <item>Date Picker</item>
+    </string-array>
+</resources>

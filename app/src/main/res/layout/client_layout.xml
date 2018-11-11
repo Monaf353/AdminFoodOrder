@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/client_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                app:civ_border_width="2dp"
+                android:src="@drawable/ic_menu_black_24dp"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/client_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="Name"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/client_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical|start"
+                    android:text="Phone"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                   />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnDetails"
+                android:text="Details"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                app:fButtonColor="@color/white"/>
+
+          <!--  <info.hoang8f.widget.FButton
+                android:id="@+id/btnAddBalance"
+                android:text="Add balance"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                app:fButtonColor="@color/white"/>-->
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnRemove"
+                android:text="Remove"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                android:textColor="@color/colorPrimary"
+                app:fButtonColor="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

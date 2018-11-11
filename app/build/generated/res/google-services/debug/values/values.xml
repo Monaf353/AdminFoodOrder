@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">383456558925-3ti80upg0sl2vt24a1g86a66bt0lbgpc.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://chakrabartty-88715.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">383456558925</string>
+    <string name="google_api_key" translatable="false">AIzaSyAul8zcVllj8noCSh7TBIRJQrYAjflUuto</string>
+    <string name="google_app_id" translatable="false">1:383456558925:android:76a163a2963a32a9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAul8zcVllj8noCSh7TBIRJQrYAjflUuto</string>
+    <string name="google_storage_bucket" translatable="false">chakrabartty-88715.appspot.com</string>
+    <string name="project_id" translatable="false">chakrabartty-88715</string>
+</resources>
